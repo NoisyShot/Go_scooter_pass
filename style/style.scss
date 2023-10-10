@@ -1,11 +1,19 @@
 
+* {
+   -webkit-transition: all 0.3s ease;;
+   -moz-transition: all 0.3s ease;;
+   -o-transition: all 0.3s ease;;
+   transition: all 0.3s ease;
+}
 body {
    padding-left: 260px;
-
    background: linear-gradient(0deg, rgba(255, 255, 255)85%, rgba(255, 255, 255, 0.85)) no-repeat, linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%) no-repeat;
    color: #21201F;
    font-family:  'Yandex font';
    font-weight: 900;
+
+
+
 }
 .wrapper {
    width: 1140px;
@@ -45,13 +53,18 @@ button {
    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
 
 } 
+button:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+ }
 .block {
    min-height: 96vh;
    margin-bottom: 128px;
 }
 .block_1 {
-   background: url(../Image/smkt0003\ 2.png) no-repeat 32vh 4vw, 
-   radial-gradient(ellipse 91vh 75vw at 73vh 27vw, rgba(143, 16, 198, 0.35) 6%, rgba(255, 255, 255, 0) 26%);
+   background: url(../Image/smkt0003\ 2.png) no-repeat 280px 60px, 
+   radial-gradient(ellipse 600px 960px at 650px 410px, rgba(143, 16, 198, 0.35) 6%, rgba(255, 255, 255, 0) 26%);
    img {
       margin-top: 125px;
    }
