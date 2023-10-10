@@ -3,25 +3,27 @@ body {
    max-width: 1440px;
    margin: 0 auto 0 260px;
    background: linear-gradient(0deg, rgba(255, 255, 255)85%, rgba(255, 255, 255, 0.85)) no-repeat, linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%) no-repeat;
-}
-a {
-   font-family:  'Yandex font';
    color: #21201F;
+   font-family:  'Yandex font';
    text-decoration: none;
+   font-weight: 900;
 }
 h1 {
-   color: #21201F;
-   font-family:  'Yandex font';
    font-size: 72px;
-   font-weight: 900;
    letter-spacing: -1.44px;
 }
+h2 {
+   font-size: 56px;
+   letter-spacing: -1.12px;
+}
+h3 {
+font-size: 48px;
+letter-spacing: -0.96px;
+}
 p {
-   color: #21201F;
-   font-family:  'Yandex font';
    font-size: 24px;
    font-weight: 500;
-   line-height: 130%;
+   line-height: 120%;
 }
 button {
    margin-top: 44px;
@@ -52,6 +54,7 @@ button {
       margin-top: 48px;
       width: 430px;
       box-sizing: border-box;
+      line-height: 130%;
       }
    button {
       margin-top: 44px;
@@ -85,8 +88,8 @@ button {
    }
 }
 .block_2 {
-   h1 {
-      max-width: 800px;
+   h2 {
+      max-width: 630px;
       margin-bottom: 48px;
    }
    img {
@@ -104,8 +107,8 @@ button {
    }
 }
 .block_3 {
-   h1 {
-      max-width: 800px;
+   h3 {
+      max-width: 600px;
       margin-bottom: 48px;
    }
    p {
@@ -153,4 +156,14 @@ button {
          left: 130px;
       }
    }
+}
+.block_4 {
+   display: flex; 
+   flex-wrap: wrap;
+      h3 {
+         width: 420px;
+      }
+      p {
+         width: 420px;
+      }
 }

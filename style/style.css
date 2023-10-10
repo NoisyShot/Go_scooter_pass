@@ -2,28 +2,31 @@ body {
   max-width: 1440px;
   margin: 0 auto 0 260px;
   background: linear-gradient(0deg, rgb(255, 255, 255) 85%, rgba(255, 255, 255, 0.85)) no-repeat, linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%) no-repeat;
-}
-
-a {
-  font-family: "Yandex font";
   color: #21201F;
+  font-family: "Yandex font";
   text-decoration: none;
+  font-weight: 900;
 }
 
 h1 {
-  color: #21201F;
-  font-family: "Yandex font";
   font-size: 72px;
-  font-weight: 900;
   letter-spacing: -1.44px;
 }
 
+h2 {
+  font-size: 56px;
+  letter-spacing: -1.12px;
+}
+
+h3 {
+  font-size: 48px;
+  letter-spacing: -0.96px;
+}
+
 p {
-  color: #21201F;
-  font-family: "Yandex font";
   font-size: 24px;
   font-weight: 500;
-  line-height: 130%;
+  line-height: 120%;
 }
 
 button {
@@ -57,6 +60,7 @@ button {
   margin-top: 48px;
   width: 430px;
   box-sizing: border-box;
+  line-height: 130%;
 }
 .block_1 button {
   margin-top: 44px;
@@ -87,8 +91,8 @@ button {
   padding: 8px 12px;
 }
 
-.block_2 h1 {
-  max-width: 800px;
+.block_2 h2 {
+  max-width: 630px;
   margin-bottom: 48px;
 }
 .block_2 img {
@@ -105,8 +109,8 @@ button {
   margin: 0 112px 61px 0;
 }
 
-.block_3 h1 {
-  max-width: 800px;
+.block_3 h3 {
+  max-width: 600px;
   margin-bottom: 48px;
 }
 .block_3 p {
@@ -153,4 +157,15 @@ button {
   position: relative;
   top: 130px;
   left: 130px;
+}
+
+.block_4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block_4 h3 {
+  width: 420px;
+}
+.block_4 p {
+  width: 420px;
 }/*# sourceMappingURL=style.css.map */
