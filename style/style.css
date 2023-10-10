@@ -1,7 +1,7 @@
 body {
   max-width: 1440px;
   margin: 0 auto 0 260px;
-  background: linear-gradient(0deg, rgb(255, 255, 255) 85%, rgba(255, 255, 255, 0.85)), linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 85%, rgba(255, 255, 255, 0.85)) no-repeat, linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%) no-repeat;
 }
 
 a {
@@ -130,12 +130,27 @@ button {
 .block_3 .img_1 {
   background: url(../Image/01.png) no-repeat;
 }
+.block_3 .img_1 img {
+  position: relative;
+  top: -130px;
+  left: -260px;
+}
 .block_3 .img_2 {
   background: url(../Image/06.png) no-repeat;
 }
 .block_3 .img_3 {
   background: url(../Image/02.png) no-repeat;
 }
+.block_3 .img_3 img {
+  position: relative;
+  top: -160px;
+  left: 250px;
+}
 .block_3 .img_4 {
   background: url(../Image/05.png) no-repeat;
+}
+.block_3 .img_4 img {
+  position: relative;
+  top: 130px;
+  left: 130px;
 }/*# sourceMappingURL=style.css.map */
