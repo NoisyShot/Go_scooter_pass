@@ -1,11 +1,23 @@
 body {
-  max-width: 1440px;
-  margin: 0 auto 0 260px;
+  padding-left: 260px;
   background: linear-gradient(0deg, rgb(255, 255, 255) 85%, rgba(255, 255, 255, 0.85)) no-repeat, linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%) no-repeat;
   color: #21201F;
   font-family: "Yandex font";
-  text-decoration: none;
   font-weight: 900;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #21201F;
+  font-family: "Yandex font";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 h1 {
@@ -36,9 +48,6 @@ button {
   border-radius: 36px;
   background: #FFDE40;
   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 22px;
 }
 
 .block {
@@ -122,7 +131,7 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: flex-start;
-  height: 150vh;
+  height: 145vh;
 }
 .block_3 .img_block div {
   width: 456px;
@@ -168,4 +177,30 @@ button {
 }
 .block_4 p {
   width: 420px;
+  margin-top: 48px;
+}
+.block_4 .info_card_2 {
+  min-width: 456px;
+  min-height: 456px;
+  background: url(../Image/Group\ 2087325536.png) no-repeat, radial-gradient(rgba(135, 53, 251, 0.35) 30%, rgba(255, 255, 255, 0) 70%);
+}
+.block_4 .info_card_3 {
+  margin: 90px 150px 0 -95px;
+  width: 400px;
+  height: 400px;
+  background: url(../Image/Group\ 2087325524.png) no-repeat, radial-gradient(rgba(135, 53, 251, 0.35) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.block_4 .info_card_4 h3 {
+  margin-top: 90px;
+}
+.block_4 .info_card_4 button {
+  margin-top: 48px;
+}
+
+.footer {
+  margin: 0 274px 128px 0;
+  color: #C5C5C5;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 120%;
 }/*# sourceMappingURL=style.css.map */
