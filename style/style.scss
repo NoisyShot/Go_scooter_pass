@@ -1,10 +1,8 @@
 
- body {
+body {
    max-width: 1440px;
    margin: 0 auto 0 260px;
-   background: linear-gradient(0deg, rgba(255, 255, 255)75%, rgba(255, 255, 255, 0.85)), linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%);
-}
-.wrapper {
+   background: linear-gradient(0deg, rgba(255, 255, 255)85%, rgba(255, 255, 255, 0.85)), linear-gradient(90deg, #ff5c4d 0%, #eb469e 25%, #8441ef 72%, #3f67f9 100%);
 }
 a {
    font-family:  'Yandex font';
@@ -19,73 +17,126 @@ h1 {
    letter-spacing: -1.44px;
 }
 p {
-
    color: #21201F;
    font-family:  'Yandex font';
-font-size: 24px;
-font-weight: 500;
-line-height: 130%;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 130%;
 }
 button {
    margin-top: 44px;
    padding: 24px 48px;
    border: 0px;
-border-radius: 36px;
-background: #FFDE40;
-box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
-font-size: 24px;
-font-weight: 500;
+   border-radius: 36px;
+   background: #FFDE40;
+   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+   font-size: 24px;
+   font-weight: 500;
    line-height: 22px;
-}
+} 
 
 .block {
-   min-height: 100vh;
+   min-height: 96vh;
+   margin-bottom: 128px;
 }
 .block_1 {
    background: url(../Image/smkt0003\ 2.png) no-repeat 32vh 4vw, 
    radial-gradient(ellipse 91vh 75vw at 73vh 27vw, rgba(143, 16, 198, 0.35) 6%, rgba(255, 255, 255, 0) 26%);
-img {
-   margin-top: 125px;
+   img {
+      margin-top: 125px;
+   }
+   h1 {
+      margin-top: 72px;
+      max-width: 420px;
+   }
+   p {
+      margin-top: 48px;
+      width: 430px;
+      box-sizing: border-box;
+      }
+   button {
+      margin-top: 44px;
+   }
+   .back_price {
+      border-radius: 500px 500px;
+      background: 
+      linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), 
+      radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+      padding: 8px 12px 8px 0;
+   }
+   .price {
+      display: table-caption;
+      text-decoration: line-through;
+      color: #808080;
+      font-family: 'Yandex font';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 120%;
+      padding-left: 12px;
+   } 
+   .sale_price {
+      color: #2E2C21;
+      font-family: 'Yandex font';
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 120%;
+      border-radius: 500px;
+      background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+      padding: 8px 12px;
+   }
 }
-h1 {
-   margin-top: 72px;
-   max-width: 420px;
+.block_2 {
+   h1 {
+      max-width: 800px;
+      margin-bottom: 48px;
+   }
+   img {
+      width: 83px;
+      height: 83px;
+   }
+   .card_block {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .card {
+      width: 450px;
+      height: 215px;
+      margin: 0 112px 61px 0;
+   }
 }
-p {
-   box-sizing: border-box;
-   margin-top: 48px;
-   width: 430px;
+.block_3 {
+   h1 {
+      max-width: 800px;
+      margin-bottom: 48px;
+   }
+   p {
+      max-width: 442px;
+      padding-bottom: 70px;
+   }
+   .img_block {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: flex-start;
+      height: 150vh;
+      div {
+         width: 456px;
+         height: 456px;
+         border-radius: 60px;
+         rotate: 2deg;
+         margin: 0 30px 8px 0;
+         }
+   }
+   .img_1 {
+      background: url(../Image/01.png) no-repeat;
+   }
+   .img_2 {
+      background: url(../Image/06.png) no-repeat;
+   }   
+   .img_3 {
+      background: url(../Image/02.png) no-repeat;
+   }   
+   .img_4 {
+      background: url(../Image/05.png) no-repeat;
+   }
 }
-button {
-   margin-top: 44px;
-}
-.back_price {
-   border-radius: 500px 500px;
-   background: 
-   linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), 
-   radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
-   padding: 8px 12px 8px 0;
-}
-.price {
-   display: table-caption;
-   text-decoration: line-through;
-   color: #808080;
-   font-family: 'Yandex font';
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 120%;
-   padding-left: 12px;
-} 
-.sale_price {
-   color: #2E2C21;
-   font-family: 'Yandex font';
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 120%;
-   border-radius: 500px;
-background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
-padding: 8px 12px;
-
-}
-
-  }
