@@ -11,12 +11,9 @@ body {
    color: #21201F;
    font-family:  'Yandex font';
    font-weight: 900;
-
-
-
 }
 .wrapper {
-   width: 1140px;
+
    margin: 0 auto;
 }
 a {
@@ -65,6 +62,9 @@ button:hover {
 .block_1 {
    background: url(../Image/smkt0003\ 2.png) no-repeat 280px 60px, 
    radial-gradient(ellipse 600px 960px at 650px 410px, rgba(143, 16, 198, 0.35) 6%, rgba(255, 255, 255, 0) 26%);
+   .swim_smkt {
+      display: none;
+   }
    img {
       margin-top: 125px;
    }
@@ -138,6 +138,9 @@ button:hover {
       padding-bottom: 70px;
    }
    .img_block {
+      .carousel {
+         display: none;
+      }
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -216,3 +219,184 @@ button:hover {
    font-weight: 400;
    line-height: 120%;
 }
+
+/* Медиа для блока 3 от 1300px и меньше */
+@media (max-width: 1300px) { 
+   .block_3 {
+   .img_block {
+      height: auto;
+      }
+   }
+}
+/* адаптив для 320px - 768px */
+
+@media (max-width: 767px) {
+   body {
+      padding-left: 32px;
+      }
+   .wrapper {
+      width: 375px;
+      }
+   a {
+      font-size: 18px;
+      }
+   h1 {
+      font-size: 36px;
+      letter-spacing: -0.72px;
+      }
+   h2 {
+      font-size: 32px;
+      letter-spacing: -0.64px;
+      }
+   h3 {
+      font-size: 32px;
+      letter-spacing: -0.64px;
+      }
+   p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 120%;
+      }
+   button {
+      margin-top: 32px;
+      padding: 18px auto;
+      } 
+   .block {
+         min-height: auto;
+         margin-bottom: 72px;
+      }
+   .block_1 {
+         background: none;
+         margin-bottom: 40px;
+      img {
+         margin-top: 32px;
+         width: 112px;
+         height: 32px;
+         }
+      h1 {
+            margin-top: 32px;
+            max-width: 50%;
+         }
+      p {
+            font-size: 18px;
+            line-height: 130%;
+            margin-top: 35px;
+            width: 85%;
+         }
+      button{
+         display: none;
+         }
+      .swim_smkt {
+         display: block;
+         margin: 0 0 0 -30px;
+         img {
+            width: 90%;
+            height: 100%;
+            margin: 0;
+            }
+         }
+      .back_price {
+            border-radius: 500px 500px;
+            padding: 5px 5px 5px 0;
+         }
+      .price {
+            font-size: 13px;
+         } 
+      .sale_price {
+            font-size: 18px;
+            padding: 5px 7px;
+         }
+      }
+   .block_2 {
+         h2 {
+            max-width: 75%;
+            margin-bottom: 0;
+         }
+         img {
+            width: 83px;
+            height: 83px;
+            margin-right: 16px;
+         }
+         .card_block {
+            display: flex;
+            flex-wrap: wrap;
+         }
+         .card {
+            display: flex;
+            align-items: center;
+            width: auto;
+            height: auto;
+            margin: 24px 63px 0 0;
+            }
+      }
+   .block_3 {
+         h3 {
+            max-width: 75%;
+            margin-bottom: 32px;
+         }
+         p {
+            max-width: 442px;
+            padding-bottom: 70px;
+         }
+         .img_block {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: flex-start;
+            height: 100%;
+            div {
+               width: 344px;
+               height: 344px;
+               border-radius: 60px;
+               rotate: 2deg;
+               margin: 0 30px 8px 0;
+               }
+               .carousel {
+                  display: block;
+               }
+               .img_1, .img_2, .img_3, .img_4 {
+                  display: none;
+               }
+         }
+         
+      }
+      .block_4 {
+         display: flex; 
+         flex-wrap: wrap;
+            h3 {
+               width: 420px;
+            }
+            p {
+               width: 420px;
+               margin-top: 48px;
+            }
+            .info_card_2 {
+               min-width: 456px;
+               min-height: 456px ;
+               background: url(../Image/Group\ 2087325536.png) no-repeat, radial-gradient(rgb(135 53 251 / 35%) 30%, rgba(255, 255, 255, 0) 70%);
+            }
+            .info_card_3 {
+               margin: 90px 150px 0 -95px;
+               width: 400px;
+               height: 400px ;
+               background: url(../Image/Group\ 2087325524.png) no-repeat, radial-gradient(rgb(135 53 251 / 35%) 0%, rgba(255, 255, 255, 0) 70%);
+            }
+            .info_card_4{
+               h3 {
+                  margin-top: 90px;
+               }
+               button {
+                  margin-top: 48px;
+               }
+            }
+      }
+      .footer {
+         margin: 72px 32px 72px 0;
+         font-size: 10px;
+      }
+
+   }
+
+
+
+
