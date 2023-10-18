@@ -66,6 +66,7 @@ button:hover {
 }
 
 .block_1 {
+  min-height: 100vh;
   position: relative;
 }
 .block_1 .swim_smkt {
@@ -80,11 +81,11 @@ button:hover {
 }
 .block_1 h1 {
   margin-top: 72px;
-  max-width: 420px;
+  inline-size: 420px;
 }
 .block_1 p {
   margin-top: 48px;
-  width: 430px;
+  inline-size: 430px;
   box-sizing: border-box;
   line-height: 130%;
 }
@@ -121,7 +122,7 @@ button:hover {
   margin-bottom: 68px;
 }
 .block_2 h2 {
-  max-width: 630px;
+  inline-size: 630px;
   margin-bottom: 48px;
 }
 .block_2 img {
@@ -131,19 +132,22 @@ button:hover {
 .block_2 .my_card_block {
   display: flex;
   flex-wrap: wrap;
+  gap: 110px 60px;
 }
 .block_2 .my_card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 450px;
   height: 215px;
-  margin: 0 110px 60px 0;
 }
 
 .block_3 h3 {
-  max-width: 600px;
+  inline-size: 600px;
   margin-bottom: 48px;
 }
 .block_3 p {
-  max-width: 442px;
+  inline-size: 442px;
   padding-bottom: 70px;
 }
 .block_3 .img_block {
@@ -197,10 +201,10 @@ button:hover {
   flex-wrap: wrap;
 }
 .block_4 h3 {
-  width: 420px;
+  inline-size: 420px;
 }
 .block_4 p {
-  width: 420px;
+  inline-size: 420px;
   margin-top: 48px;
 }
 .block_4 .info_card_2 {
@@ -222,7 +226,7 @@ button:hover {
 }
 
 .footer {
-  max-width: 900px;
+  inline-size: 900px;
   margin: 0 0 128px 0;
   color: #C5C5C5;
   font-size: 13px;
@@ -230,10 +234,39 @@ button:hover {
   line-height: 120%;
 }
 
-/* Медиа для блока 3 от 1300px и меньше */
+/* Медиа от 1300px и меньше */
 @media (max-width: 1300px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+  .block_1 {
+    top: -9%;
+    left: 24%;
+    background: radial-gradient(ellipse 900px 1060px at 275px 409px, rgba(143, 16, 198, 0.4) 0%, rgba(255, 255, 255, 0) 30%);
+  }
+  .block_1 .swim_smkt img {
+    width: 500px;
+    height: 500px;
+  }
+  .block_2 .my_card_block {
+    flex-direction: column;
+    gap: 16px;
+  }
   .block_3 .img_block {
     height: auto;
+  }
+  .block_4 {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .block_4 .info_card_2 {
+    display: none;
+  }
+  .block_4 .info_card_3 {
+    margin: 0;
+  }
+  .block_4 .info_card_4 h3 {
+    margin: 0;
   }
 }
 /* адаптив для 320px - 768px */
