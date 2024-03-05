@@ -1,0 +1,203 @@
+header {
+   position: relative;
+   max-height: 804px;
+}
+
+header:before {
+   box-sizing: content-box;
+   z-index: -1;
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.22;
+   background:
+      -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff)),
+      -webkit-gradient(linear, left top, right top, from(#ff5c4d), color-stop(25%, #eb469f), color-stop(72%, #8341ef), to(#3f68f9));
+   background:
+      -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
+      -o-linear-gradient(left, #ff5c4d 0%, #eb469f 25%, #8341ef 72%, #3f68f9 100%);
+   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
+      linear-gradient(90deg, #ff5c4d 0%, #eb469f 25%, #8341ef 72%, #3f68f9 100%);
+}
+
+.header__container {
+   position: relative;
+}
+.header__container:before {
+   box-sizing: content-box;
+   position: absolute;
+   z-index: -1;
+   content: "";
+   background-image: url(../image/smkt.png);
+   background-repeat: no-repeat;
+   top: -110px;
+   right: 0;
+   bottom: 0;
+   left: 410px;
+}
+
+.header__container-pushBorder {
+   padding-right: 480px;
+}
+
+.header__logo {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 9px;
+   padding-top: 125px;
+   margin-bottom: 72px;
+}
+
+.header__logo-img-yandex {
+   width: 112px;
+   height: 32px;
+}
+
+.header__logo-img-go {
+   width: 55px;
+   height: 52px;
+}
+
+.header__title {
+   font-size: 3rem;
+   font-weight: 900;
+   line-height: 100%;
+   margin-bottom: 48px;
+}
+
+.header__title-text {
+   font-weight: 500;
+   line-height: 130%;
+   margin-bottom: 44px;
+}
+
+.price {
+   border-radius: 500px;
+   background: radial-gradient(rgb(224, 184, 255, 0.63), rgb(182, 185, 255, 0.63) 100%);
+   line-height: 120%;
+   padding: 8px 12px 8px 0;
+
+   .price-sale {
+      color: rgb(46, 44, 33);
+      padding: 8px 12px;
+      border-radius: 500px;
+      background: radial-gradient(185.61% 141.42% at 100% 0%, rgb(224, 184, 255), rgb(182, 185, 255) 100%);
+   }
+   .price-fullprice {
+      color: rgb(128, 128, 128);
+      font-size: 16px;
+      text-decoration: line-through;
+      line-height: 45px;
+   }
+}
+
+.header__bottom-smkt {
+   display: none;
+}
+
+.header__link {
+   display: inline-block;
+   box-sizing: content-box;
+   text-align: center;
+   border-radius: 36px;
+   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+   background: rgb(255, 222, 64);
+   padding: 24px;
+   width: 318px;
+   font-weight: 500;
+   line-height: 22px;
+   transition:
+      transform 0.1s ease,
+      box-shadow 0.3s ease-in-out;
+}
+
+.header__link:hover {
+   box-shadow: none;
+}
+
+.header__link:focus-visible {
+   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64);
+}
+
+.header__link:active {
+   transform: translate(1px, 2px);
+}
+
+//  Media <375
+
+@media (max-width: 375px) {
+   header:before {
+      background:
+         -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff)),
+         -webkit-gradient(linear, left top, right top, from(#ff5c4d), color-stop(10%, #eb469f), color-stop(20%, #8341ef), to(#3f68f9));
+      background:
+         -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
+         -o-linear-gradient(left, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
+         linear-gradient(90deg, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
+   }
+
+   .header__container-pushBorder {
+      padding: 0;
+   }
+
+   .header__logo {
+      gap: 6px;
+      padding-top: 32px;
+      margin-bottom: 32px;
+   }
+
+   .header__logo-img-yandex {
+      width: 72px;
+      height: 20px;
+   }
+
+   .header__logo-img-go {
+      width: 35px;
+      height: 32px;
+   }
+
+   .header__title {
+      font-size: 2rem;
+      margin-bottom: 35px;
+   }
+
+   .header__title-text {
+      margin-bottom: 2px;
+   }
+
+   .price {
+      padding: 5px 8px 5px 0;
+
+      .price-sale {
+         padding: 5px 8px;
+      }
+
+      .price-fullprice {
+         font-size: 13px;
+         line-height: 30px;
+      }
+   }
+
+   .header__bottom-smkt {
+      display: block;
+      width: 340px;
+      img {
+         position: relative;
+         left: -30px;
+      }
+   }
+
+   .header__link {
+      position: fixed;
+      z-index: 100;
+      bottom: 16px;
+      padding: 18px;
+      box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
+      box-sizing: border-box;
+   }
+}

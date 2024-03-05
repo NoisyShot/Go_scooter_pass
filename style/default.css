@@ -1,5 +1,5 @@
 html {
-   --container: 900px;
+   --container: 920px;
    --padding-container: 260px;
    box-sizing: border-box;
    position: relative;
@@ -20,7 +20,7 @@ body {
    background-color: #fff;
    color: #21201f;
    position: relative;
-   overflow-x: hidden;
+   overflow: hidden;
 }
 
 img,
@@ -68,14 +68,17 @@ fieldset {
    max-width: calc(var(--container) + var(--padding-container) * 2);
    padding: 0 var(--padding-container) 128px var(--padding-container);
    margin: 0 auto;
+   box-sizing: content-box;
 }
 
 @media (max-width: 375px) {
    html {
       --container: 311px;
       --padding-container: 32px;
+      font-size: 18px;
    }
    .container {
       padding-bottom: 72px;
+      margin: 0;
    }
 }

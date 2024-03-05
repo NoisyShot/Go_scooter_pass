@@ -39,9 +39,21 @@ header:before {
 
 .header__logo {
   display: flex;
+  justify-content: start;
+  align-items: center;
   gap: 9px;
   padding-top: 125px;
   margin-bottom: 72px;
+}
+
+.header__logo-img-yandex {
+  width: 112px;
+  height: 32px;
+}
+
+.header__logo-img-go {
+  width: 55px;
+  height: 52px;
 }
 
 .header__title {
@@ -76,7 +88,14 @@ header:before {
   line-height: 45px;
 }
 
-.header__button {
+.header__bottom-smkt {
+  display: none;
+}
+
+.header__link {
+  display: inline-block;
+  box-sizing: content-box;
+  text-align: center;
   border-radius: 36px;
   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
   background: rgb(255, 222, 64);
@@ -84,4 +103,72 @@ header:before {
   width: 318px;
   font-weight: 500;
   line-height: 22px;
+  transition: transform 0.1s ease, box-shadow 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  box-shadow: none;
+}
+
+.header__link:focus-visible {
+  box-shadow: 0px 4px 98px 0px rgb(255, 222, 64);
+}
+
+.header__link:active {
+  transform: translate(1px, 2px);
+}
+
+@media (max-width: 375px) {
+  header:before {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%), linear-gradient(90deg, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
+  }
+  .header__container-pushBorder {
+    padding: 0;
+  }
+  .header__logo {
+    gap: 6px;
+    padding-top: 32px;
+    margin-bottom: 32px;
+  }
+  .header__logo-img-yandex {
+    width: 72px;
+    height: 20px;
+  }
+  .header__logo-img-go {
+    width: 35px;
+    height: 32px;
+  }
+  .header__title {
+    font-size: 2rem;
+    margin-bottom: 35px;
+  }
+  .header__title-text {
+    margin-bottom: 2px;
+  }
+  .price {
+    padding: 5px 8px 5px 0;
+  }
+  .price .price-sale {
+    padding: 5px 8px;
+  }
+  .price .price-fullprice {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .header__bottom-smkt {
+    display: block;
+    width: 340px;
+  }
+  .header__bottom-smkt img {
+    position: relative;
+    left: -30px;
+  }
+  .header__link {
+    position: fixed;
+    z-index: 100;
+    bottom: 16px;
+    padding: 18px;
+    box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
+    box-sizing: border-box;
+  }
 }/*# sourceMappingURL=header.css.map */
