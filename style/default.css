@@ -66,9 +66,9 @@ fieldset {
 
 .container {
    max-width: calc(var(--container) + var(--padding-container) * 2);
-   padding: 0 var(--padding-container) 128px var(--padding-container);
+   padding: 0 var(--padding-container);
    margin: 0 auto;
-   box-sizing: content-box;
+   margin-bottom: 128px;
 }
 
 @media (max-width: 375px) {
@@ -78,7 +78,7 @@ fieldset {
       font-size: 18px;
    }
    .container {
-      padding-bottom: 72px;
       margin: 0;
+      margin-bottom: 72px;
    }
 }

@@ -1,1 +1,52 @@
-/*# sourceMappingURL=club.css.map */
+.club__title {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 100%;
+  margin-bottom: 48px;
+  width: 70%;
+}
+
+.club__bonus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 61px 112px;
+}
+
+.club__bonus-img {
+  margin-bottom: 16px;
+  height: 94px;
+  width: 83px;
+}
+
+.club__bonus-text {
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media (max-width: 375px) {
+  .club__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+    width: auto;
+  }
+  .club__bonus {
+    display: block;
+  }
+  .club__bonus-card {
+    display: grid;
+    grid-template-columns: 83px 213px;
+    gap: 16px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .club__bonus-img {
+    margin: 0;
+    height: 83px;
+  }
+  .club__bonus-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+}/*# sourceMappingURL=club.css.map */

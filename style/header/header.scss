@@ -31,7 +31,7 @@ header:before {
    position: absolute;
    z-index: -1;
    content: "";
-   background-image: url(../image/smkt.png);
+   background-image: url(../../image/smkt.png);
    background-repeat: no-repeat;
    top: -110px;
    right: 0;
@@ -139,6 +139,10 @@ header:before {
          -o-linear-gradient(left, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
          linear-gradient(90deg, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
+   }
+
+   .container {
+      margin-bottom: 20px;
    }
 
    .header__container-pushBorder {
