@@ -1,0 +1,18 @@
+header {
+   position: relative;
+   height: 100vh;
+}
+
+header:before {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.22;
+   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#FFFFFF)), -webkit-gradient(linear, left top, right top, from(#FF5C4D), color-stop(25%, #EB469F), color-stop(72%, #8341EF), to(#3F68F9));
+   background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), -o-linear-gradient(left, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+}
