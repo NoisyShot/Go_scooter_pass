@@ -77,6 +77,11 @@ fieldset {
       --padding-container: 32px;
       font-size: 18px;
    }
+
+   body {
+      min-width: 375px;
+   }
+
    .container {
       margin: 0;
       margin-bottom: 72px;

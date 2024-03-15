@@ -130,17 +130,6 @@ header:before {
 //  Media <375
 
 @media (max-width: 375px) {
-   header:before {
-      background:
-         -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff)),
-         -webkit-gradient(linear, left top, right top, from(#ff5c4d), color-stop(10%, #eb469f), color-stop(20%, #8341ef), to(#3f68f9));
-      background:
-         -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
-         -o-linear-gradient(left, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%),
-         linear-gradient(90deg, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
-   }
-
    .container {
       margin-bottom: 20px;
    }

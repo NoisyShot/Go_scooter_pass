@@ -119,9 +119,6 @@ header:before {
 }
 
 @media (max-width: 375px) {
-  header:before {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%), linear-gradient(90deg, #ff5c4d 0%, #eb469f 10%, #8341ef 20%, #3f68f9 100%);
-  }
   .container {
     margin-bottom: 20px;
   }

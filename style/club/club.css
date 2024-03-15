@@ -6,20 +6,20 @@
   width: 70%;
 }
 
-.club__bonus {
+.club__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 61px 112px;
 }
 
-.club__bonus-img {
+.club__img {
   margin-bottom: 16px;
   height: 94px;
   width: 83px;
 }
 
-.club__bonus-text {
+.club__text {
   font-weight: 500;
   line-height: 120%;
 }
@@ -30,21 +30,21 @@
     margin-bottom: 32px;
     width: auto;
   }
-  .club__bonus {
+  .club__container {
     display: block;
   }
-  .club__bonus-card {
+  .club__card {
     display: grid;
     grid-template-columns: 83px 213px;
     gap: 16px;
     margin-bottom: 30px;
     align-items: center;
   }
-  .club__bonus-img {
+  .club__img {
     margin: 0;
     height: 83px;
   }
-  .club__bonus-text {
+  .club__text {
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
