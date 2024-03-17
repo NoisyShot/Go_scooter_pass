@@ -65,7 +65,7 @@
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 426px) {
   .slides__title {
     font-size: 32px;
     margin-bottom: 32px;
@@ -83,7 +83,6 @@
   }
   .slide__image {
     display: none;
-    height: 311px;
   }
   .slide__image img {
     border-radius: 32px;

@@ -24,7 +24,7 @@
   line-height: 120%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 426px) {
   .club__title {
     font-size: 32px;
     margin-bottom: 32px;

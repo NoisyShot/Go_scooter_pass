@@ -71,9 +71,10 @@ fieldset {
    margin-bottom: 128px;
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 426px) {
    html {
-      --container: 311px;
+      --container: 100%;
       --padding-container: 32px;
       font-size: 18px;
    }
