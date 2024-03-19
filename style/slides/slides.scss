@@ -1,3 +1,9 @@
+.slides {
+   .container {
+      margin-bottom: 0;
+   }
+}
+
 .slides__title {
    font-size: 2rem;
    font-weight: 900;
@@ -29,7 +35,7 @@
 
    .slide__img-decoration {
       position: absolute;
-   }
+   } // to do декорации переделать под after
 }
 .slide__img-1 {
    grid-column: 1;

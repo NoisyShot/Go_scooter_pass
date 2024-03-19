@@ -1,3 +1,7 @@
+.slides .container {
+  margin-bottom: 0;
+}
+
 .slides__title {
   font-size: 2rem;
   font-weight: 900;
