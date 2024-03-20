@@ -3,7 +3,6 @@ html {
    --padding-container: 260px;
    box-sizing: border-box;
    position: relative;
-   overflow-x: hidden;
    font-size: 24px;
 }
 
@@ -20,7 +19,6 @@ body {
    background-color: #fff;
    color: #21201f;
    position: relative;
-   overflow: hidden;
 }
 
 img,

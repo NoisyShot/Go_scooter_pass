@@ -76,7 +76,8 @@
   line-height: 120%;
   margin-bottom: 48px;
 }
-.offer__promotion .offer__promotion-link {
+
+.offer__promotion-link {
   display: inline-block;
   font-size: 24px;
   font-weight: 500;
@@ -142,7 +143,7 @@
     font-size: 16px;
     margin-bottom: 0;
   }
-  .offer__promotion .offer__promotion-link {
+  .offer__promotion-link {
     display: none;
   }
 }/*# sourceMappingURL=offer.css.map */

@@ -181,15 +181,6 @@ header:before {
    }
 
    .header__link {
-      position: fixed;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 100;
-      bottom: 16px;
-      padding: 18px;
-      box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
-      box-sizing: border-box;
-      width: calc(100% - var(--padding-container) * 2);
+display: none;
    }
 }

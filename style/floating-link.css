@@ -1,0 +1,27 @@
+.floating-link {
+   display: none;
+   font-size: 24px;
+   border-radius: 36px;
+   background: rgb(255, 222, 64);
+   transition:
+   transform 0.1s ease,
+   box-shadow 0.3s ease-in-out;
+   margin: 0 var(--padding-container) 0 var(--padding-container);
+}
+
+@media (max-width: 426px) {
+.floating-link {
+position: sticky;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 100;
+bottom: 18px;
+padding: 18px;
+box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
+box-sizing: border-box;
+width: calc(100% - var(--padding-container) * 2);
+
+}
+}
+
