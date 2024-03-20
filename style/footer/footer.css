@@ -1,0 +1,19 @@
+.footer__coopyright {
+  color: rgb(197, 197, 197);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.footer__coopyright-link {
+  text-decoration: underline;
+}
+
+@media (max-width: 426px) {
+  .footer .container {
+    margin-bottom: 72px;
+  }
+  .footer__coopyright {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

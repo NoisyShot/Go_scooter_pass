@@ -135,6 +135,9 @@
     height: 192px;
     filter: blur(50px);
   }
+  .offer__promotion {
+    margin-bottom: 32px;
+  }
   .offer__promotion .offer__promotion-title {
     font-size: 32px;
     margin-bottom: 32px;
