@@ -37,10 +37,10 @@
 .offer__smct-2 {
    grid-row: 2;
    grid-column: 1/2;
-   width: 1000px;
    position: absolute;
    top: -60px;
    left: -136px;
+   transform: rotate(-13deg);
    &::after {
       top: 110px;
       left: 80px;

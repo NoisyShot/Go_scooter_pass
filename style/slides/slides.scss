@@ -45,10 +45,11 @@
    grid-row: 2 / 4;
    &::after {
       background-image: url(../../image/smkt0008.png);
-      height: 592px;
-      width: 592px;
-      top: 110px;
-      left: -330px;
+      height: 2081px;
+      width: 1953px;
+      top: -650px;
+      left: -980px;
+      transform: rotate(-15deg) scale(0.25);
    }
 }
 
@@ -62,10 +63,11 @@
    grid-row: 1 / 3;
    &::after {
       background-image: url(../../image/cfee0016.png);
-      height: 364px;
-      width: 364px;
-      top: -160px;
-      right: -160px;
+      height: 1113px;
+      width: 1416px;
+      top: -630px;
+      right: -650px;
+      transform: rotate(135deg) scale(0.25);
    }
 }
 
@@ -74,10 +76,11 @@
    grid-row: 3 / 5;
    &::after {
       background-image: url(../../image/smkt0010.png);
-      height: 695px;
-      width: 597px;
-      bottom: -130px;
-      right: -270px;
+      height: 2779px;
+      width: 2386px;
+      top: -455px;
+      left: -295px;
+      transform: scale(0.25);
    }
 }
 
@@ -124,9 +127,9 @@
 
    .slide__img-3 {
       &::after {
-         top: -170px;
-         right: -130px;
-         transform: scale(0.5);
+         top: -590px;
+         right: -660px;
+         transform: scale(0.125) rotate(135deg);
          display: block;
       }
    }
