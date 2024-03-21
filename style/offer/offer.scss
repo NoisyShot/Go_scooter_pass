@@ -49,11 +49,11 @@
 
 .offer__smct::after {
    z-index: -1;
-   content: '';
+   content: "";
    position: absolute;
    opacity: 0.29;
    border-radius: 999px;
-   background-color: #8241EF;
+   background-color: #8241ef;
    -webkit-transform: rotate(-140deg);
    -ms-transform: rotate(-140deg);
    transform: rotate(-140deg);
@@ -90,31 +90,29 @@
    background: rgb(255, 222, 64);
    padding: 24px 48px;
    transition:
-   transform 0.1s ease,
-   box-shadow 0.3s ease-in-out;
+      transform 0.1s ease,
+      box-shadow 0.3s ease-in-out;
 }
 
 .offer__promotion-link:hover {
-box-shadow: none;
+   box-shadow: none;
 }
 
 .offer__promotion-link:focus-visible {
-box-shadow: 0px 4px 98px 0px rgba(255, 222, 64);
+   box-shadow: 0px 4px 98px 0px rgba(255, 222, 64);
 }
 
 .offer__promotion-link:active {
-transform: translate(1px, 2px);
+   transform: translate(1px, 2px);
 }
-
 
 //  Media <425
 
 @media (max-width: 426px) {
-
    .offer__container {
       display: block;
    }
-   
+
    .offer__subscription {
       margin-bottom: 32px;
       .offer__subscription-title {
@@ -125,11 +123,11 @@ transform: translate(1px, 2px);
          font-size: 16px;
       }
    }
-   
+
    .offer__smct-1 {
-   display: none;
+      display: none;
    }
-   
+
    .offer__smct-2 {
       position: inherit;
       top: inherit;
@@ -142,13 +140,13 @@ transform: translate(1px, 2px);
          left: 82px;
       }
    }
-   
+
    .offer__smct::after {
       width: 216px;
       height: 192px;
       filter: blur(50px);
    }
-   
+
    .offer__promotion {
       margin-bottom: 32px;
       .offer__promotion-title {

@@ -4,6 +4,7 @@ html {
    box-sizing: border-box;
    position: relative;
    font-size: 24px;
+   overflow-x: hidden;
 }
 
 *,
@@ -19,6 +20,10 @@ body {
    background-color: #fff;
    color: #21201f;
    position: relative;
+}
+
+main {
+   overflow-x: hidden;
 }
 
 img,
@@ -40,7 +45,7 @@ a {
    text-decoration: none;
    color: inherit;
 }
-a:focus-visible{
+a:focus-visible {
    border-color: currentColor;
 }
 
@@ -71,7 +76,6 @@ fieldset {
    margin: 0 auto;
    margin-bottom: 128px;
 }
-
 
 @media (max-width: 426px) {
    html {
