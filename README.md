@@ -1,19 +1,24 @@
-# Проект go-scooter-pass
+# Проект Go-scooter-pass
 
 **Описание проекта**
 
-* Адаптивный одностраничный лэндинг
+- Адаптивный одностраничный лэндинг
 
 **Использованные технологии**
 
-* HTML, CSS, Java Script.
-* Flexbox-верстка, Grid-Layout.
-* Медиазапросы и оптимизация под все устройства от 1440 до 375 разрешения.
-* Резиновая и адаптивная верстка.
+- HTML, CSS, JavaScript.
+- Flexbox-верстка, Grid-Layout.
+- Медиазапросы и оптимизация под разрешения 1440px и 425px.
+- Desktop first
+- Адаптивная верстка.
+
+**Pixso**
+
+- [Ссылка на макет в Pixso](https://pixso.net/app/editor/0mBXNgDkq9eun9OnL1ojjw?icon_type=1&page-id=0%3A1)
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/W9gacDyHMIG55KuDwAN2Tl/go-scooter-pass?type=design&node-id=516-268&mode=design&t=LZUwsnwKH72PwH4U-0)
+- [Ссылка на макет в Figma](<https://www.figma.com/file/uXR3hDR6k3eYORKp0H4LQh/go-scooter-pass-(Copy)?type=design&node-id=0-1&mode=design&t=5Q24sW0vLyWy9qNH-0>)
 
 <br>
-Для просмотра [откройте](https://innaromanova.github.io/go-scooter-pass/) в браузере.
+Просмотр готовой работы в [браузере](<https://noisyshot.github.io/Go_scooter_pass/>).
