@@ -21,4 +21,4 @@
 - [Ссылка на макет в Figma](<https://www.figma.com/file/uXR3hDR6k3eYORKp0H4LQh/go-scooter-pass-(Copy)?type=design&node-id=0-1&mode=design&t=5Q24sW0vLyWy9qNH-0>)
 
 <br>
-Просмотр готовой работы в [браузере](<https://noisyshot.github.io/Go_scooter_pass/>).
+Просмотр готовой работы в [браузере](https://noisyshot.github.io/Go_scooter_pass/).
